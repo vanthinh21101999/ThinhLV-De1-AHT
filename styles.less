@@ -1,0 +1,450 @@
+@font-family: "Montserrat";
+@font-size: 14px;
+@color: black;
+@color_heder: #3b3b3b;
+@bg: @color;
+@backgroud-color: #8262b5;
+    body {
+        margin: 0px;
+        padding: 0px;
+      
+        
+        .header_top {
+            padding: 12px 10px;
+            width: auto;
+            height: 46px;
+            background-color: @bg;
+            display: flex;
+            color: @color_heder;
+            font-family: "Font Awesome";
+            font-size: @font-size;
+            
+            .welcome-right {
+                span {
+                    margin-left: 4px;
+                }
+               display: flex;
+               margin-left: 740px;
+               
+                .login {
+                    margin-left: 12px;
+                }
+            }
+        }
+        .container-fluid {
+                width: auto;
+                height: 82px;
+                display: flex;
+            .container {
+                background-color: white;
+                display: flex;
+                margin-left: 100px;
+                
+                    .main-menu {
+                       display: flex;
+                       list-style-type: none;
+    
+                        li a {
+                           color: @color;
+                           text-decoration: none;
+                           display: block;
+                           padding: 38px 12px;
+                           font-family: Montserrat;
+                           font-size: @font-size;
+                        
+                       }
+                    }
+                    .icons {
+                        padding-top: 25px;
+                        margin-left: 140px;
+                    }
+                        
+    
+                
+             }
+        }
+        .banner {
+            .container {
+                .row {
+                    .banner-left {
+                        
+                            img {
+                            width: 100%;
+                            }
+                    
+                        .banner-left-content {
+                            .content-font {
+                                h2 {
+                                    position: absolute;
+                                    top: 325px;
+                                    margin-left: 337px;
+                                    color: @color;
+                                    font-size: @font-size + 16px;
+                                    font-size: 30px;
+                                    font-family: "Pacifico";
+                                }
+                            }
+                            .content-button {
+                                position: absolute; 
+                                top: 390px; 
+                                margin-left: 540px;
+                                button {
+                                    border: 1px solid @backgroud-color;
+                                    background-color: @backgroud-color;
+                                    width: 106px;
+                                    height: 40px;
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                        a :hover {
+                                            background-color: @backgroud-color;
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                                
+                            
+                        }
+                    }
+                    .banner-right {
+                        .banner-right-1 {
+                            img {
+                                width: 100%;
+                            }
+                            h3 {
+                                font-size: @font-size + 2px;
+                                letter-spacing: 3px;
+                                color: #616161;
+                                position: absolute;
+                                top: 82px;
+                                margin-left: 55px;
+                                font-family: @font-family;
+                            }
+                            h2 {
+                                font-size: @font-size + 2px;
+                                color: @color;
+                                position: absolute;
+                                top: 106px;
+                                margin-left: 55px;
+                                font-family: @font-family;
+                            }
+                        }
+                        .banner-right-2 {
+                            img {
+                                width: 100%;
+                                margin-top: 35px;
+                            }
+                            h5 {
+                                font-size: @font-size + 2px;
+                                letter-spacing: 3px;
+                                color: #616161;
+                                position: absolute;
+                                top: 350px;
+                                margin-left: 35px;
+                                font-family: @font-family;
+                            }
+                            h4 {
+                                font-size: @font-size + 2px;
+                                color: @color;
+                                position: absolute;
+                                top: 370px;
+                                margin-left: 35px;
+                                font-family: @font-family;
+                                }
+                            .content-button-2 {
+
+                                    position: absolute; 
+                                    top: 420px; 
+                                    margin-left: 36px;
+                                    button {
+                                        border: 1px solid @backgroud-color;
+                                        background-color: @backgroud-color;
+                                        width: 106px;
+                                        height: 40px;
+                                        a {
+                                            text-decoration: none;
+                                            color: white;
+                                            a :hover {
+                                                background-color: @backgroud-color;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                        }
+                    }
+                }
+            }
+        }
+        .main {
+            .container {
+                .featured-item {
+                    h4 {
+                        font-size: 12px;
+                        letter-spacing: 6px;
+                        color: @backgroud-color;
+                        margin-top: 70px;
+                        font-family: @font-family;
+                    }
+                    h2 {
+                        font-size: @font-size + 10px;
+                        letter-spacing: 2px;
+                        color: @color;
+                        
+                        font-family: @font-family;
+                    }
+                }
+                .feat-boder {
+                    p {
+                        margin-top: 30px;
+                        border: 1px solid #8262b5; 
+                        width: 50px;
+                    }
+                }
+                .row {
+                    margin-top: 25px;
+                    
+                       button {
+                           position: absolute;
+                           top: 277px;
+                           width: 120px;
+                           height: 40px;
+                           margin-left: 5px;
+                           border: 1px solid white;
+                           background-color: white;
+                           a {
+                               text-decoration: none;
+                               color: @color;
+                               
+                           }
+                           
+                       }
+                     h3 {
+                        font-size: @font-size;
+                        font-family: @font-family;
+                
+                    }
+                    strike {
+                        color: #afb5c3;
+                        font-size: @font-size;
+                    }
+                    span {
+                        color: @backgroud-color;
+                        margin-left: 8px;
+                        font-family: @font-family;
+                        font-size: @font-size;
+                    }
+                    
+                }
+            }
+        }
+        /* Blogs */
+    .new-blogs {
+
+        background-image: url('./images/background-blogs.png');
+        padding: 30px;
+        margin-top: 70px;
+     
+    .container {
+        .new-blogs-title {
+            margin-left: 480px;
+            p {
+                font-size: 12px;
+                letter-spacing: 6px;
+                color: @backgroud-color;
+                
+                font-family: @font-family;
+                text-align: center;
+            }
+            span {
+                font-size: @font-size + 10px;
+                letter-spacing: 2px;
+                color: @color;
+                font-family: @font-family;
+                text-align: center;
+            }
+            h5 {
+                
+                border: 1px solid #8262b5; 
+                width: 90px;
+                margin-left: 60px;
+                
+                
+            }
+        }
+        .row {
+            margin-top: 40px;
+            .slide {
+                img {
+                    width: 100%;
+                }
+            }
+            .blogs-all {
+                background-color: white;
+            }
+            .blog-content {
+                
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #424242;
+                    font-family: "Open Sans";
+                }
+                h3 {
+                    font-size: @font-size + 2px;
+                    line-height: 20px;
+                    color: @color;
+                    font-family: @font-family;
+                }
+                a {
+                    text-decoration: none;
+                }
+                a :hover {
+                    color: @backgroud-color;
+                }
+            }
+            
+            
+            .post-rate {
+                padding: 10px;
+               
+              }
+            .post-rate p {
+                margin-right: 30px;
+                color: #c0c0c0;
+              }
+            .post-rate p i {
+                color: #c0c0c0;
+                margin-right: 3px;
+              }
+            
+        }
+        .activeslider {
+            margin-top: 30px;
+            text-align: center;
+            color: @backgroud-color;
+        }
+    }
+    
+        
+        
+       
+    }   
+       /*footer*/
+       .footer {
+           background-color: @color;
+           .footer-content {
+               background-color: @color;
+               color: white;
+               .title {
+                margin-top: 50px;
+                font-size: 16px;
+                letter-spacing: 1px;
+                
+                color: #f7f7f7;
+                
+                font-family: @font-family;
+                
+               }
+               .content {
+               
+                font-size: @font-size;
+                
+                color: #888888;
+                
+                font-family: "Open Sans";
+               }
+               .social-media {
+                  svg {
+                      padding: 2px;
+                  }
+               }
+            .navigation {
+                .row {
+                    ul {
+                        list-style-type: none;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-size: @font-size;
+                        
+                        color: #888888;
+                        font-family: "Open Sans";
+                    }
+                }
+            }
+            .footer-shop {
+                .location-content {
+                    ul {
+                        list-style-type: none;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-size: @font-size;
+                        margin-left: 10px;
+                        color: #888888;
+                        font-family: "Open Sans";
+                    }
+                }
+            }
+           }
+           .me-auto {
+               a {
+                   text-decoration: none;
+                   color: white;
+               }
+           }
+           .footer-bottom-right {
+               
+            ul{
+            margin-left: 320px;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    margin: 0px 2px;
+                    a{
+                        i{
+                            font-size: 20px;
+                            color: #6e6e6e;
+                        }
+                    }
+                }
+            }
+           }
+       }
+      
+             
+}
+    //responsive
+    @media screen and (max-width: 1024px) {
+        /* For lapttop: */
+        #wapper{
+          width: 100%;
+        }
+      }
+    @media screen and (max-width: 680px) {
+        /* For lapttop: */
+        #wapper{
+          width: 100%;
+        }
+      }
+    /* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+    #wapper{
+        width: 100%;
+      }
+}
+ 
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+    #wapper{
+        width: 100%;
+      }
+ 
+}
+
+
+    
+    
+    
